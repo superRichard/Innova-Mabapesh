@@ -2039,14 +2039,14 @@ a.ed_getinvolved:hover i{
 }
 .ed_clientslider .owl-theme .owl-nav [class*='owl-'] {
     color: #000;
-    padding: 0px 0px;
+    padding: 5px 10px;
 	display:none;
 }
 .ed_clientslider .owl-carousel .owl-item img {
     width: auto;
 	display: inline-block;
-    /* height: 80px; */
-    height: auto;
+	height: 80px;
+    /*height: auto;*/
 }
 /*----------- index2 end -------*/
 /*-------- About page start -------*/
