@@ -174,7 +174,7 @@ textarea:focus {
 .ed_header_top {
     width: 100%;
     float: left;
-    background-color: #fca901;
+    background-color: #04528E;
 	color:#ffffff;
 	text-transform:capitalize;
 	padding:5px 0px;
@@ -252,7 +252,7 @@ textarea:focus {
 .ed_info_wrapper a:hover{
 	text-decoration:none;
 	background-color:#ffffff;
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -274,11 +274,11 @@ textarea:focus {
     background-color: transparent;
 }
 .header_yellow .ed_header_bottom {
-    background-color: #fca901;
+    background-color: #04528E;
     border-top: 1px solid #ffffff;
 }
 .header_half .ed_header_bottom {
-    background-color: #fca901;
+    background-color: #04528E;
 }
 .pro_logo{
 	float:left;
@@ -303,7 +303,7 @@ textarea:focus {
 .pro_menu_toggle {
     width: 60px;
     padding: 10px 0px;
-    background: #fca901;
+    background: #04528E;
     cursor: pointer;
     margin: 0px;
     color: #ffffff;
@@ -314,11 +314,11 @@ textarea:focus {
 }
 .header_yellow .pro_menu_toggle {
     background: #ffffff;
-    color: #fca901;
+    color: #04528E;
 }
 .header_half .pro_menu_toggle {
     background: #ffffff;
-    color: #fca901;
+    color: #04528E;
 }
 .pro_menu_toggle i {
 	float: right;
@@ -380,7 +380,7 @@ textarea:focus {
 	left:0;
 	right:0;
 	margin:0px auto;
-	background-color:#fca901;
+	background-color:#04528E;
 	width:0;
 	z-index:-1;
 }
@@ -394,10 +394,10 @@ textarea:focus {
 	color:#ffffff;
 }
 .header_yellow .pro_menu > ul > li > a:hover{
-	color:#fca901;
+	color:#04528E;
 }
 .header_half .pro_menu > ul > li > a:hover{
-	color:#fca901;
+	color:#04528E;
 }
 .pro_menu ul li a:hover:after {
 	width:100%;
@@ -410,7 +410,7 @@ textarea:focus {
 }
 .pro_menu ul li.active a{
 	color:#ffffff;
-	background-color:#fca901;
+	background-color:#04528E;
 }
 /*---------------------menu end---------------------*/
 /*------------------Sub menu start-----------------*/	
@@ -581,7 +581,7 @@ textarea:focus {
 .ed_search_form{
 	float:left;
 	width:100%;
-	background-color:#fca901;
+	background-color:#04528E;
 	padding:50px;
 	border-radius:3px;
 	margin-bottom:50px;
@@ -606,7 +606,7 @@ textarea:focus {
 }
 .ed_search_form .form-inline .form-control{
 	border:1px solid #fff;
-    background-color: #fca901;
+    background-color: #04528E;
     padding: 0px 20px;
     color: #fff;
     float: left;
@@ -641,7 +641,7 @@ textarea:focus {
 	width:100%;
     padding: 11px 0px;
 	background-color:#ffffff;
-	color: #fca901;
+	color: #04528E;
 	border:1px solid #ffffff;
 }
 .ed_search_form .ed_orange:hover {
@@ -679,9 +679,9 @@ textarea:focus {
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 .ed_orange{
-	background-color:#fca901;
+	background-color:#04528E;
 	color:#ffffff;
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 	 -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -690,8 +690,8 @@ textarea:focus {
 }
 .ed_orange:hover {
 	background-color:#ffffff;
-	color: #fca901;
-	border:1px solid #fca901;
+	color: #04528E;
+	border:1px solid #04528E;
 	 -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -700,8 +700,8 @@ textarea:focus {
 }
 .ed_green{
 	background-color:#ffffff;
-	color:#fca901;
-	border:1px solid #fca901;
+	color:#04528E;
+	border:1px solid #04528E;
 	 -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -709,7 +709,7 @@ textarea:focus {
     transition: all 0.3s;
 }
 .ed_green:hover {
-	background-color:#fca901;
+	background-color:#04528E;
 	color: #ffffff;
 	border:1px solid #ffffff;
 	 -webkit-transition: all 0.3s;
@@ -748,7 +748,7 @@ textarea:focus {
     margin: 0px auto;
     width: 60px;
     height: 0px;
-    border-bottom: 2px solid #fca901;
+    border-bottom: 2px solid #04528E;
 }
 .ed_heading_top h3:before{
     position: absolute;
@@ -759,7 +759,7 @@ textarea:focus {
     margin: 0px auto;
     width: 100px;
     height: 2px;
-    background-color: #fca901;
+    background-color: #04528E;
 }
 .ed_populer_areas_slider{
 	padding-top:75px;
@@ -779,7 +779,7 @@ textarea:focus {
 	transition: all 0.3s;
 }
 .ed_populer_areas_slider .owl-carousel .owl-nav .owl-prev:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -800,7 +800,7 @@ textarea:focus {
 	transition: all 0.3s;
 }
 .ed_populer_areas_slider .owl-carousel .owl-nav .owl-next:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -834,7 +834,7 @@ textarea:focus {
     right: 50%;
     bottom: 0%;
 	border-radius:3px 3px 0px 0px;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -848,7 +848,7 @@ textarea:focus {
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -869,7 +869,7 @@ textarea:focus {
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -901,7 +901,7 @@ textarea:focus {
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -939,7 +939,7 @@ a.ed_getinvolved{
 	transition: all 0.3s;
 }
 a.ed_getinvolved:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1036,7 +1036,7 @@ a.ed_getinvolved:hover i{
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	color:#fca901;
+	color:#04528E;
 }
 .skill_section h4 a i{
 	color:#272727;
@@ -1052,7 +1052,7 @@ a.ed_getinvolved:hover i{
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	color:#fca901;
+	color:#04528E;
 	padding-left:5px;
 }
 /*------- our skill section end ---------*/
@@ -1107,7 +1107,7 @@ a.ed_getinvolved:hover i{
     transition: all 0.3s;
 }
 .ed_video_section .ed_img_overlay i:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1171,7 +1171,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_mostrecomeded_course_slider .owl-carousel .owl-nav .owl-prev:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1192,7 +1192,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_mostrecomeded_course_slider .owl-carousel .owl-nav .owl-next:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1265,7 +1265,7 @@ a.ed_getinvolved:hover i{
     transition: all 0.3s;
 }
 .ed_most_recomended_data h4 a:hover{
-	color:#fca901;
+	color:#04528E;
 	 -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1311,7 +1311,7 @@ a.ed_getinvolved:hover i{
 	text-align: right;
 }
 .ed_views i{
-	color:#fca901;
+	color:#04528E;
 }
 .star-rating {
     position: relative;
@@ -1346,7 +1346,7 @@ a.ed_getinvolved:hover i{
     top: 0;
     position: absolute;
     left: 0;
-    color: #fca901;
+    color: #04528E;
 }
 /*---------- most recent course section end ----------*/
 /*----------- latest news start -------*/
@@ -1373,7 +1373,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_latest_news_slider .owl-carousel .owl-nav .owl-prev:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1389,7 +1389,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_latest_news_slider .owl-carousel .owl-nav .owl-next:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1418,7 +1418,7 @@ a.ed_getinvolved:hover i{
 	text-transform:capitalize;
 	font-size:24px;
 	margin:0px;
-    color: #fca901;
+    color: #04528E;
 }
 .ed_latest_news_slider .ed_item_description p{
 	float:left;
@@ -1447,7 +1447,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_latest_news_slider .ed_item_description a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1474,7 +1474,7 @@ a.ed_getinvolved:hover i{
 .ed_newsletter_section{
 	float:left;
 	width:100%;
-	background-color:#fca901;
+	background-color:#04528E;
     position: relative;
 }
 .ed_newsletter_section_heading {
@@ -1556,7 +1556,7 @@ a.ed_getinvolved:hover i{
 	margin-left:0px;
 }
 .ed_sociallink ul li a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1594,7 +1594,7 @@ a.ed_getinvolved:hover i{
     left: 0;
     width: 50px;
     height: 0px;
-    border-bottom: 1px solid #fca901;
+    border-bottom: 1px solid #04528E;
 }
 .text-widget h4.widget-title:before{
     position: absolute;
@@ -1603,7 +1603,7 @@ a.ed_getinvolved:hover i{
     left: 0;
     width: 80px;
     height: 1px;
-    background-color: #fca901;
+    background-color: #04528E;
 }
 .text-widget p{
 	float:left;
@@ -1615,7 +1615,7 @@ a.ed_getinvolved:hover i{
     float: left;
     padding: 5px 15px 35px 0px;
     font-size: 16px;
-    color: #fca901;
+    color: #04528E;
 }
 .text-widget p a{
 	color:#CACACA;
@@ -1628,7 +1628,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .text-widget p a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1674,7 +1674,7 @@ a.ed_getinvolved:hover i{
 	margin:0px;
 }
 .ed_copy_right p a{
-	color:#fca901;
+	color:#04528E;
 	text-decoration:none;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -1683,7 +1683,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_copy_right p a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1724,7 +1724,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_footer_menu ul li a:hover{
-    color: #fca901;	
+    color: #04528E;	
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1788,7 +1788,7 @@ a.ed_getinvolved:hover i{
 	padding-right:0px;
 	}
 .ed_pagetitle ul.breadcrumb li:hover a{
-	color: #fca901;
+	color: #04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1796,7 +1796,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 	}
 .ed_pagetitle ul.breadcrumb li:last-child a{
-	color:#fca901;
+	color:#04528E;
     cursor: text;
 	}
 .ed_pagetitle ul.breadcrumb li i{
@@ -1900,7 +1900,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_latest_newsslider .owl-carousel .owl-nav .owl-prev:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1918,7 +1918,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_latest_newsslider .owl-carousel .owl-nav .owl-next:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1963,7 +1963,7 @@ a.ed_getinvolved:hover i{
 .ed_latest_newsslider .ed_latestnews a{
 	text-decoration:none;
 	font-size:14px;
-	color:#fca901;
+	color:#04528E;
 	text-transform:capitalize;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -2012,7 +2012,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_clientslider .owl-carousel .owl-nav .owl-prev:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2030,7 +2030,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_clientslider .owl-carousel .owl-nav .owl-next:hover {
-    color:#fca901;
+    color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2117,7 +2117,7 @@ a.ed_getinvolved:hover i{
     left: 0;
     right: 0;
     margin: 0px auto;
-    background-color: #fca901;
+    background-color: #04528E;
     color: #ffffff;
     width: 80px;
     height: 80px;
@@ -2135,8 +2135,8 @@ a.ed_getinvolved:hover i{
 }
 .ed_chart_ratio:hover i{
     background-color: #ffffff;
-    color: #fca901;
-    border:1px solid #fca901;
+    color: #04528E;
+    border:1px solid #04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2185,7 +2185,7 @@ a.ed_getinvolved:hover i{
     right: 50%;
     bottom: 0%;
 	border-radius:3px;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2199,7 +2199,7 @@ a.ed_getinvolved:hover i{
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2235,7 +2235,7 @@ a.ed_getinvolved:hover i{
 .ed_team_member_description h4 {
     text-transform: capitalize;
     font-size: 24px;
-    color: #fca901;
+    color: #04528E;
 }
 .ed_team_member_description h5 {
     text-transform: capitalize;
@@ -2276,7 +2276,7 @@ a.ed_getinvolved:hover i{
     right: 50%;
     bottom: 0%;
 	border-radius:3px;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2290,7 +2290,7 @@ a.ed_getinvolved:hover i{
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2338,7 +2338,7 @@ a.ed_getinvolved:hover i{
     right: 50%;
     bottom: 0%;
     border-radius: 3px;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -2352,7 +2352,7 @@ a.ed_getinvolved:hover i{
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -2399,7 +2399,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_blog_info h2 a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2431,7 +2431,7 @@ a.ed_getinvolved:hover i{
     font-size: 14px;
 }
 .ed_blog_info ul li a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2439,7 +2439,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_blog_info ul li a i{
-	color:#fca901;
+	color:#04528E;
 	padding-right:5px;
     font-size: 15px;
 }
@@ -2471,7 +2471,7 @@ a.ed_getinvolved:hover i{
 	padding: 10px 20px;
     margin: 30px 0px 0px 50px;
     font-size: 18px;
-    border-left: 5px solid #fca901;
+    border-left: 5px solid #04528E;
 	color: #272727;
     font-style: italic;
     font-family: 'Work Sans';
@@ -2504,7 +2504,7 @@ a.ed_getinvolved:hover i{
 	cursor:text;
 }
 .ed_blog_tags ul li i{
-	color:#fca901;
+	color:#04528E;
 	-ms-transform: rotate(85deg); /* IE 9 */
 	-moz-transform: rotate(85deg); 
 	-o-transform: rotate(85deg); 
@@ -2517,7 +2517,7 @@ a.ed_getinvolved:hover i{
 	color: #272727;
 }
 .ed_blog_tags ul li a:hover{
-	color:#fca901;
+	color:#04528E;
 }
 .ed_blog_tags div{
 	float:right;
@@ -2528,7 +2528,7 @@ a.ed_getinvolved:hover i{
 	color: #272727;
 }
 .ed_blog_tags div a:hover{
-	color:#fca901;
+	color:#04528E;
 }
 #ed_social_share{
 	position:absolute;
@@ -2556,7 +2556,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 #ed_social_share li a i:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2605,7 +2605,7 @@ a.ed_getinvolved:hover i{
 	left:0%;
 	width:70px;
 	height:2px;
-	background-color:#fca901;
+	background-color:#04528E;
 	margin: 8px auto;
 }
 .ed_blog_comment{
@@ -2646,7 +2646,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_comment_text h5 span a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2682,7 +2682,7 @@ a.ed_getinvolved:hover i{
 	left:0%;
 	width:70px;
 	height:2px;
-	background-color:#fca901;
+	background-color:#04528E;
 	margin: 8px auto;
 }
 .ed_blog_messages{
@@ -2709,7 +2709,7 @@ a.ed_getinvolved:hover i{
 .ed_blog_messages .form-control:focus{
 	outline:none;
 	box-shadow:none;
-    border: 1px solid #fca901;
+    border: 1px solid #04528E;
 	 -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -2749,7 +2749,7 @@ a.ed_getinvolved:hover i{
 	bottom:0%;
 	left:0%;
 	width:70px;
-	background-color:#fca901;
+	background-color:#04528E;
 	height:2px;
 }
 .widget.widget_search{
@@ -2758,7 +2758,7 @@ a.ed_getinvolved:hover i{
 	margin-bottom: 30px;
 }
 .widget_search input{
-    border:1px solid #fca901;
+    border:1px solid #04528E;
     box-shadow: none;
     border-right: none;
     color: #272727;
@@ -2776,7 +2776,7 @@ a.ed_getinvolved:hover i{
 .widget_search input:focus{
 	outline:0px;
 	box-shadow:none;
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 	border-right:none;
 	 -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -2785,7 +2785,7 @@ a.ed_getinvolved:hover i{
     transition: all 0.3s;
 }
 .widget_search .input-group-btn button{
-	border:1px solid #fca901;
+	border:1px solid #04528E;
     background-color: #ffffff;
     border-left: none;
     padding: 11px 12px;
@@ -2800,7 +2800,7 @@ a.ed_getinvolved:hover i{
     transform: rotate(85deg);
 }
 .widget_search .input-group-btn button:hover{
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 	background-color:#ffffff;
 	border-left:none;
 }
@@ -2810,14 +2810,14 @@ a.ed_getinvolved:hover i{
 .widget_search .input-group-btn button:focus{
 	outline:0px;
 	box-shadow:none;
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 	border-left:none;
 	background-color:#ffffff;
 }
 .widget_search .input-group-btn button:active{
 	outline:0px;
 	box-shadow:none;
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 	border-left:none;
 	background-color:#ffffff;
 }
@@ -2831,7 +2831,7 @@ a.ed_getinvolved:hover i{
     width: 100%;
     margin: 0px;
     padding-left: 25px;
-    color: #fca901;
+    color: #04528E;
 }
 .widget_categories ul li{
     float: left;
@@ -2853,7 +2853,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .widget_categories ul li a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2874,7 +2874,7 @@ a.ed_getinvolved:hover i{
     width: 100%;
     margin: 0px;
     padding-left: 25px;
-    color: #fca901;
+    color: #04528E;
 }
 .widget_archive ul li{
     float: left;
@@ -2896,7 +2896,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .widget_archive ul li a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2925,7 +2925,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .widget_tag_cloud a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -2950,7 +2950,7 @@ a.ed_getinvolved:hover i{
 .widget_calendar .cal tr, .cal th, .cal td {
 	margin: 0;
 	padding: 0;
-	border: 1px solid #fca901;
+	border: 1px solid #04528E;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -2961,8 +2961,8 @@ a.ed_getinvolved:hover i{
 	color: #272727;
 	text-align: center;
 	background:#ffffff;
-	border: 1px solid #fca901;
-	border-bottom: 0px solid #fca901;
+	border: 1px solid #04528E;
+	border-bottom: 0px solid #04528E;
 }
 .widget_calendar .cal caption a {
 	display: block;
@@ -2971,7 +2971,7 @@ a.ed_getinvolved:hover i{
 	color: #9798a2;
 }
 .widget_calendar .cal caption a:hover {
-	color: #fca901;
+	color: #04528E;
 }
 .widget_calendar .cal caption .prev {
 	float: left;
@@ -2991,7 +2991,7 @@ a.ed_getinvolved:hover i{
 	color: #272727;
 	text-transform: uppercase;
 	background: #ffffff;
-	border-left: 1px solid #fca901;
+	border-left: 1px solid #04528E;
 }
 .widget_calendar .cal td {
 	font-size: 14px;
@@ -3011,7 +3011,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .widget_calendar .cal td a:hover {
-	background-color: #fca901;
+	background-color: #04528E;
 	color:#fff;
 }
 .widget_calendar .cal td.off a{
@@ -3027,7 +3027,7 @@ a.ed_getinvolved:hover i{
 .widget_calendar .cal td.active a, .cal td a:active {
 	margin: 0px;
 	color: #fff;
-	background-color: #fca901;
+	background-color: #04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -3094,7 +3094,7 @@ a.ed_getinvolved:hover i{
 }
 .widget.widget_cart .quantity span{
 	margin-top:0px;
-	color:#fca901;
+	color:#04528E;
 	font-size:18px;
 	font-weight:bold;
 }
@@ -3107,7 +3107,7 @@ a.ed_getinvolved:hover i{
 }
 .widget.widget_cart .total span{
 	margin-top:0px;
-	color:#fca901;
+	color:#04528E;
 	float:right;
 }
 .widget.widget_cart .button_cart{
@@ -3196,7 +3196,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .widget_sharing ul li a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -3236,7 +3236,7 @@ a.ed_getinvolved:hover i{
 	right:0%;
     width: 70px;
 	margin:0px auto;
-    background-color: #fca901;
+    background-color: #04528E;
     height: 2px;
 }
 .ed_sidebar_slider .ed_mostrecomeded_course_slider h4{
@@ -3256,7 +3256,7 @@ a.ed_getinvolved:hover i{
     left: 15px;
 }
 .ed_sidebar_slider .owl-carousel .owl-nav .owl-prev:hover {
-    color: #fca901;
+    color: #04528E;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -3277,7 +3277,7 @@ a.ed_getinvolved:hover i{
     right: 15px;
 }
 .ed_sidebar_slider .owl-carousel .owl-nav .owl-next:hover {
-    color: #fca901;
+    color: #04528E;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -3353,16 +3353,16 @@ a.ed_getinvolved:hover i{
 }
 .ed_blog_bottom_pagination  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
     cursor: pointer;
-    background-color: #fca901;
+    background-color: #04528E;
 	color:#ffffff;
-    border-color: #fca901;
+    border-color: #04528E;
 	padding:7px 14px;
 }
 .ed_blog_bottom_pagination  .pagination > li > a, .pagination > li > span {
 	padding: 7px 14px;
     border-radius:3px;
-    color: #fca901;
-    border:1px solid #fca901;
+    color: #04528E;
+    border:1px solid #04528E;
     margin-right: 10px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -3380,8 +3380,8 @@ a.ed_getinvolved:hover i{
 .ed_blog_bottom_pagination  .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
     z-index: 3;
     color: #ffffff;
-    background-color: #fca901;
-    border-color: #fca901;
+    background-color: #04528E;
+    border-color: #04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -3406,7 +3406,7 @@ a.ed_getinvolved:hover i{
 .ed_custom_select_box_button {
 	float:left;
 	padding: 12px 20px;
-	background-color:#fca901;
+	background-color:#04528E;
 	color: #ffffff;
 	font-size:14px;
 }
@@ -3456,7 +3456,7 @@ a.ed_getinvolved:hover i{
 }
 .ed_custom_select_box_options li a:hover{
 	color:#ffffff;
-	background-color:#fca901;
+	background-color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -3471,7 +3471,7 @@ a.ed_getinvolved:hover i{
 .on_map a{
 	text-decoration:none;
 	font-size:12px;
-    color: #fca901;
+    color: #04528E;
 	text-transform:capitalize;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -3569,7 +3569,7 @@ a.ed_getinvolved:hover i{
     right: 50%;
     bottom: 0%;
 	border-radius:3px;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -3583,7 +3583,7 @@ a.ed_getinvolved:hover i{
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background-color: rgba(252, 169, 1, 0.7);
+    background-color: rgb(4 82 142 / 80%);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -3619,7 +3619,7 @@ a.ed_getinvolved:hover i{
     transition: all 0.3s;
 }
 .ed_event_wrapper_item_description h4 a:hover{
-	color:#fca901;
+	color:#04528E;
 	 -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -3635,7 +3635,7 @@ a.ed_getinvolved:hover i{
 }
 .ed_event_wrapper_item_description a {
     text-decoration: none;
-    color: #fca901;
+    color: #04528E;
 	font-size:12px;
     text-transform: capitalize;
     -webkit-transition: all 0.3s;
@@ -3679,10 +3679,10 @@ a.ed_getinvolved:hover i{
 	width:100%;
 	margin-bottom:10px;
 	overflow:hidden;
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 }
 .ed_event_single_image:hover{
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 	-webkit-transition:  all 0.3s ease;
     -moz-transition:  all 0.3s ease;
     -o-transition:  all 0.3s ease;
@@ -3722,7 +3722,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_event_single_info h2 a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -3742,7 +3742,7 @@ a.ed_getinvolved:hover i{
 .ed_event_single_address_info{
 	float: left;
     width: 100%;
-    background-color: #fca901;
+    background-color: #04528E;
     color: #ffffff;
     padding: 44px;
 	border-radius:3px;
@@ -3814,7 +3814,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_event_single_address_info span a:hover i{
-	color:#fca901;
+	color:#04528E;
 	padding-left:5px;
 	font-size:18px;
 	-webkit-transition: all 0.3s;
@@ -3844,7 +3844,7 @@ a.ed_getinvolved:hover i{
 #invitation_form .modal-content form .form-control:focus{
 	outline:none;
 	box-shadow:none;
-	border-color:#fca901;
+	border-color:#04528E;
 }
 #invitation_form .close:hover, .close:focus{
 	outline:none;
@@ -3900,7 +3900,7 @@ a.ed_getinvolved:hover i{
 	padding:10px 20px;
 }
 .ed_contact_form .form-control:focus {
-    border-color: #fca901;
+    border-color: #04528E;
     outline: 0;
     box-shadow:none;
 	-webkit-transition: all 0.3s;
@@ -3964,7 +3964,7 @@ a.ed_getinvolved:hover i{
     height: 15px;
     top: -5px;
     /* left: 0; */
-    background: #fca901;
+    background: #04528E;
     border: none;
     border-radius:3px;
     right: -5px;
@@ -4085,14 +4085,14 @@ a.ed_getinvolved:hover i{
     border: 1px solid;
     border-radius:3px;
     padding: 1px 7px 0px 7px;
-	background-color:#fca901;
+	background-color:#04528E;
 	color:#ffffff;
 }
 .ed_tabs_left > .nav-tabs > li > a:hover,
 .ed_tabs_left > .nav-tabs > li > a:focus {
 	border-color: transparent;
 	color:#ffffff;
-	background-color:#fca901;
+	background-color:#04528E;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -4104,8 +4104,8 @@ a.ed_getinvolved:hover i{
 .ed_tabs_left > .nav-tabs .active > a:focus {
 	border-color: transparent;
 	color: #ffffff;
-    border: 1px solid #fca901;
-    background-color: #fca901;
+    border: 1px solid #04528E;
+    background-color: #04528E;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -4144,8 +4144,8 @@ a.ed_getinvolved:hover i{
 }
 .ed_dashboard_inner_tab .nav-tabs > li.active > a, .ed_dashboard_inner_tab .nav-tabs > li.active > a:hover, .ed_dashboard_inner_tab .nav-tabs > li.active > a:focus{
 	color:#ffffff;
-	border:1px solid #fca901;
-	background-color:#fca901;
+	border:1px solid #04528E;
+	background-color:#04528E;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -4154,8 +4154,8 @@ a.ed_getinvolved:hover i{
 }
 .ed_dashboard_inner_tab .nav > li > a:hover, .ed_dashboard_inner_tab .nav > li > a:focus{
 	color:#ffffff;
-	border:1px solid #fca901;
-	background-color:#fca901;
+	border:1px solid #04528E;
+	background-color:#04528E;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -4163,8 +4163,8 @@ a.ed_getinvolved:hover i{
     transition: all 0.3s;
 }
 .ed_dashboard_inner_tab .nav .open > a, .ed_dashboard_inner_tab .nav .open > a:hover, .ed_dashboard_inner_tab .nav .open > a:focus { 
-    background-color: #fca901;
-    border-color: #fca901;
+    background-color: #04528E;
+    border-color: #04528E;
 	color:#ffffff;
 }
 .ed_dashboard_inner_tab select{
@@ -4181,7 +4181,7 @@ a.ed_getinvolved:hover i{
 	width:100%;
 }
 .ed_inner_dashboard_info .ed_add_students{
-	border-bottom:1px solid #fca901;
+	border-bottom:1px solid #04528E;
 	border-top:0px;
 }
 .ed_inner_dashboard_info .ed_add_students img{
@@ -4223,11 +4223,11 @@ a.ed_getinvolved:hover i{
 	padding:5px 10px;
 }
 .ed_inner_dashboard_info table td a, .ed_dashboard_inner_tab table td a{
-	color:#fca901;
+	color:#04528E;
 	text-decoration:none;
 }
 .ed_inner_dashboard_info table td a:hover, .ed_dashboard_inner_tab table td a:hover{
-	color:#fca901;
+	color:#04528E;
 }
 .ed_inner_dashboard_info .ed_mostrecomeded_course_slider .ed_item_description {
     min-height: 225px;
@@ -4242,7 +4242,7 @@ a.ed_getinvolved:hover i{
     float: left;
     width: 100%;
     padding: 5px 0px;
-    border-top: 1px solid #fca901;
+    border-top: 1px solid #04528E;
     text-transform: capitalize;
     color: #272727;
 }
@@ -4272,11 +4272,11 @@ a.ed_getinvolved:hover i{
 }
 .ed_dashboard_tab_info h1 span{
 	text-transform:uppercase;
-	color:#fca901;
+	color:#04528E;
 }
 .ed_dashboard_tab_info p strong{
 	text-transform:uppercase;
-	color:#fca901;
+	color:#04528E;
 }
 .ed_tabpersonal{
 	float:left;
@@ -4304,8 +4304,8 @@ a.ed_getinvolved:hover i{
 	text-transform:capitalize;
 	padding:13px 33px;
 	margin-bottom:10px;
-	background-color:#fca901;
-	border:1px solid #fca901;
+	background-color:#04528E;
+	border:1px solid #04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -4314,8 +4314,8 @@ a.ed_getinvolved:hover i{
 }
 .ed_inner_dashboard_info button:hover{
 	color:#ffffff;
-	background-color:#fca901;
-	border:1px solid #fca901;
+	background-color:#04528E;
+	border:1px solid #04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -4337,7 +4337,7 @@ a.ed_getinvolved:hover i{
 	margin-bottom:20px;
 }
 .ed_teacher_div h3 span{
-	color:#fca901;
+	color:#04528E;
 }
 .ed_teacher_form{
 	float:left;
@@ -4365,7 +4365,7 @@ a.ed_getinvolved:hover i{
     font-size: 13px;
 }
 .ed_teacher_form .form-control:focus {
-    border-color: #fca901;
+    border-color: #04528E;
     outline: 0;
     box-shadow:none;
 	 -webkit-transition: all 0.3s;
@@ -4385,7 +4385,7 @@ a.ed_getinvolved:hover i{
     text-transform: capitalize;
 }
 .woo-cart-table thead{
-	background-color: #fca901;
+	background-color: #04528E;
     color: #fff;
 }
 .woo-cart-table thead th{
@@ -4400,7 +4400,7 @@ a.ed_getinvolved:hover i{
     text-decoration: none;
 }
 .woo-cart-table tbody tr td span{
-	color:#fca901;
+	color:#04528E;
 	font-weight: bold;
 	font-size:18px;
 }
@@ -4424,7 +4424,7 @@ a.ed_getinvolved:hover i{
 	text-align: center;
     text-transform: capitalize;
     border-bottom: 1px solid #ddd;
-    background-color: #fca901;
+    background-color: #04528E;
     padding: 5px 0px;
     color: #ffffff;
     font-size: 24px;
@@ -4433,14 +4433,14 @@ a.ed_getinvolved:hover i{
 	font-size:18px;
 }
 .cart-subtotal span{
-	color:#fca901;
+	color:#04528E;
 	font-size:18px;
 }
 .order-total{
 	font-size:18px;
 }
 .order-total span{
-	color:#fca901;
+	color:#04528E;
 	font-weight: bold;
 	font-size:18px;
 }
@@ -4478,7 +4478,7 @@ a.ed_getinvolved:hover i{
 	content:'';
 	width:50px;
 	height:2px;
-	background-color: #fca901;
+	background-color: #04528E;
 	left:0px;
 	top:100%;
 }
@@ -4495,7 +4495,7 @@ a.ed_getinvolved:hover i{
 	border-radius:3px;
 }
 .checkout.woocommerce-checkout .form-group .form-control:focus {
-    border-color: #fca901;
+    border-color: #04528E;
 }
 .woocommerce-checkout-payment {
     float: left;
@@ -4580,7 +4580,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_course_single_info h2 a:hover{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -4589,7 +4589,7 @@ a.ed_getinvolved:hover i{
 }
 .ed_course_single_info h2 span{
 	float:right;
-	color:#fca901;
+	color:#04528E;
 }
 .ed_course_single_tab{
 	float:left;
@@ -4601,7 +4601,7 @@ a.ed_getinvolved:hover i{
     transition:  all 0.3s ease;
 }
 .ed_course_single_tab .nav-tabs {
-    border: 1px solid #fca901;
+    border: 1px solid #04528E;
 	background-color:#ffffff;
 	text-transform:capitalize;
 	-webkit-transition:  all 0.3s ease;
@@ -4612,8 +4612,8 @@ a.ed_getinvolved:hover i{
 }
 .ed_course_single_tab .nav-tabs > li.active > a, .ed_course_single_tab .nav-tabs > li.active > a:hover, .ed_course_single_tab .nav-tabs > li.active > a:focus{
 	color:#ffffff;
-	border: 1px solid #fca901;
-	background-color:#fca901;
+	border: 1px solid #04528E;
+	background-color:#04528E;
 	-webkit-transition:  all 0.3s ease;
     -moz-transition:  all 0.3s ease;
     -o-transition:  all 0.3s ease;
@@ -4621,7 +4621,7 @@ a.ed_getinvolved:hover i{
     transition:  all 0.3s ease;
 }
 .ed_course_single_tab .nav-tabs > li > a:hover {
-    border-color: #fca901 #fca901 #fca901;
+    border-color: #04528E #04528E #04528E;
 	color:#ffffff;
 	-webkit-transition:  all 0.3s ease;
     -moz-transition:  all 0.3s ease;
@@ -4640,7 +4640,7 @@ a.ed_getinvolved:hover i{
     transition:  all 0.3s ease;
 }
 .ed_course_single_tab .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #fca901;
+    background-color: #04528E;
 	-webkit-transition:  all 0.3s ease;
     -moz-transition:  all 0.3s ease;
     -o-transition:  all 0.3s ease;
@@ -4648,7 +4648,7 @@ a.ed_getinvolved:hover i{
     transition:  all 0.3s ease;
 }
 .ed_course_tabconetent{
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 	border-top:none;
     padding: 20px;
 	float:left;
@@ -4700,7 +4700,7 @@ a.ed_getinvolved:hover i{
 	float:left;
 	width:100%;
 	overflow:hidden;
-	border: 1px solid #fca901;
+	border: 1px solid #04528E;
 }
 .ed_course_single_image .ed_video_section {
     width: 100%;
@@ -4709,7 +4709,7 @@ a.ed_getinvolved:hover i{
     padding-top: 20px;
 }
 .ed_course_single_image:hover{
-	border:1px solid #fca901;
+	border:1px solid #04528E;
 	-webkit-transition:  all 0.3s ease;
     -moz-transition:  all 0.3s ease;
     -o-transition:  all 0.3s ease;
@@ -4758,8 +4758,8 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_course_single_image_overlay i:hover{
-	color:#fca901;
-	border-color:#fca901;
+	color:#04528E;
+	border-color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -4778,7 +4778,7 @@ a.ed_getinvolved:hover i{
 .ed_course_duration p {
     float: left;
     width: 100%;
-    color: #fca901;
+    color: #04528E;
     font-weight: 600;
     margin: 5px 0px 0px 0px;
 }
@@ -4786,7 +4786,7 @@ a.ed_getinvolved:hover i{
 	float:left;
 	width:100%;
 	padding:5px 0px;
-    border-bottom: 1px solid #fca901;
+    border-bottom: 1px solid #04528E;
 }
 .ed_course_event h5{
 	float:left;
@@ -4821,7 +4821,7 @@ a.ed_getinvolved:hover i{
 	border-bottom:none;
 }
 .ed_time_executor ul li:first-child{
-	background-color:#fca901;
+	background-color:#04528E;
 }
 .ed_time_executor ul li:first-child a{
 	color:#ffffff;
@@ -4835,10 +4835,10 @@ a.ed_getinvolved:hover i{
 }
 .ed_time_executor ul li a{
 	text-decoration:none;
-	color:#fca901;
+	color:#04528E;
 }
 .ed_time_executor ul li a:hover{
-	color:#fca901;
+	color:#04528E;
 }
 .ed_time_executor ul li span{
 	float:right;
@@ -4846,7 +4846,7 @@ a.ed_getinvolved:hover i{
 }
 .ed_time_executor ul li span i{
 	font-size:20px;
-	color:#fca901;
+	color:#04528E;
 }
 /*-------- course single page end --------*/
 
@@ -4885,9 +4885,9 @@ a.ed_getinvolved:hover i{
 .ed_pricing_heading{
 	float:left;
 	width:100%;
-	background-color:#fca901;
+	background-color:#04528E;
 	padding: 40px 0px;
-	border-bottom: 1px solid #fca901;
+	border-bottom: 1px solid #04528E;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 	-webkit-transition: all 0.3s;
@@ -4954,7 +4954,7 @@ a.ed_getinvolved:hover i{
 	width:100%;
 	margin:0px;
 	padding:0px;
-    border:1px solid #fca901;
+    border:1px solid #04528E;
 	border-bottom: 1px solid transparent;
     border-top: none;
 	-webkit-transition: all 0.3s;
@@ -4994,7 +4994,7 @@ a.ed_getinvolved:hover i{
 .ed_pricing_table_wrapper_second .ed_pricing_tabel_footer{
     float: left;
     width: 100%;
-    border: 1px solid #fca901;
+    border: 1px solid #04528E;
     padding: 30px 0px;
     background-color: transparent;
     border-top: 0px;
@@ -5010,7 +5010,7 @@ a.ed_getinvolved:hover i{
     border-radius: 100px;
     height: 100px;
     line-height: 100px;
-    border: 0px solid #fca901;
+    border: 0px solid #04528E;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -5019,7 +5019,7 @@ a.ed_getinvolved:hover i{
     box-shadow: 0px 0px 0px 10px rgba(252, 169, 1, 0.5);
 }
 .ed_pricing_table_wrapper_second .ed_table_price p sup{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -5027,7 +5027,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_pricing_table_wrapper_second .ed_table_price p sub{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -5046,7 +5046,7 @@ a.ed_getinvolved:hover i{
 }
 .ed_pricing_table:hover .ed_pricing_heading{
     background-color: #fff;
-    border-bottom: 1px solid #fca901;
+    border-bottom: 1px solid #04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -5063,8 +5063,8 @@ a.ed_getinvolved:hover i{
 }
 .ed_pricing_table:hover ul {
 	border:none;
-	background-color:#fca901;
-	 border-bottom: 1px solid #fca901;
+	background-color:#04528E;
+	 border-bottom: 1px solid #04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -5088,7 +5088,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_pricing_table:hover .ed_table_price p sup{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -5096,7 +5096,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_pricing_table:hover .ed_table_price p sub{
-	color:#fca901;
+	color:#04528E;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -5116,7 +5116,7 @@ a.ed_getinvolved:hover i{
 	transition: all 0.3s;
 }
 .ed_pricing_table_wrapper_second .ed_pricing_table:hover .ed_table_price p {
-	background-color:#fca901;
+	background-color:#04528E;
 	border-color:#fff;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -5418,10 +5418,10 @@ a.ed_getinvolved:hover i{
 	color:#3c3d49;
 }
 .header_yellow .pro_menu > ul > li > a:after{
-	background-color:#fca901;
+	background-color:#04528E;
 }
 .header_half .pro_menu > ul > li > a:after{
-	background-color:#fca901;
+	background-color:#04528E;
 }
 .header_yellow .pro_menu > ul > li > a:hover{
 	color:#ffffff;
