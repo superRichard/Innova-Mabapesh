@@ -1531,11 +1531,22 @@ a.ed_getinvolved:hover i{
 	margin-bottom:27px;	
     margin-top: 4px;
 }
+.ed_sociallink{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
 .ed_sociallink ul{
-	float:left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	/*float:left;
 	width:100%;
 	margin:0px;
-	padding:0px;
+	padding:0px;*/
 }
 .ed_sociallink ul li{
 	list-style:none;
@@ -5790,3 +5801,54 @@ a.ed_getinvolved:hover i{
 }
 }
 /*------ responsive css end ----*/
+.pro_logo_custom{
+	all: unset;
+	float: inline-end;
+}
+.pro_menu_custom {
+	all: unset;
+    float: left;
+}
+.header-custom-padding {
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+.ed_pagetitle_custom {
+	all: unset;
+	float: left;
+	width: 100%;
+	background-color: #272727;
+	position: relative;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+	padding-top: 130px;
+	padding-bottom: 70px;
+	background-image: url(../images/header/brdcrm_bg.jpg);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+}
+.static-elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+}
+
+.static-logo {
+	width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.static-text {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Work Sans', serif;
+    margin-bottom: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
