@@ -5845,10 +5845,25 @@ a.ed_getinvolved:hover i{
 }
 
 .static-text {
-    font-size: 40px;
+    font-size: 36px;
     color: #fff;
     font-family: 'Work Sans', serif;
     margin-bottom: 20px;
 	text-transform: uppercase;
 	text-decoration: underline;
+}
+@media (max-width: 767px) {
+	.pro_logo_custom {
+		all: initial;
+		float: left;
+	}
+	.pro_menu_custom {
+		all: initial;
+	}
+	.static-logo {
+		display: none;
+	}
+	.static-text {
+		padding: 10px;
+	}
 }
