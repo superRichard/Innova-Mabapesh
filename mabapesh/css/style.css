@@ -5913,6 +5913,15 @@ a.ed_getinvolved:hover i{
     border-radius: 74px;
     margin: 42px auto;
 }
+.ed_contact_form .form-control:hover {
+    border-color: #005498; /* Cambiar el borde a un color naranja al pasar el ratón */
+    background-color: #f5f6f7; /* Color de fondo suave */
+    transition: all 0.3s ease; /* Transición suave */
+}
+.error {
+    border: 2px solid red;
+    background-color: #ffcccc;
+}
 @media (max-width: 767px) {
 	.pro_logo_custom {
 		all: initial;

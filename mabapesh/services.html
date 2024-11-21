@@ -413,6 +413,178 @@ Parther : contacto@innovaciontecnologica.online
     </div>
 </div>
 <!-- Services end -->
+<!-- Form Cotización start -->
+<div class="ed_transprentbg ed_toppadder90 ed_bottompadder90" id="form-cotizacion">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="ed_heading_top ed_bottompadder50">
+					<h3>Cotización</h3>
+				</div>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<div class="ed_contact_form">
+					<div class="form-group col-md-12">
+                        <input type="text" class="form-control" id="empresa" placeholder="Empresa/Razón Social">
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input type="email" class="form-control" id="correo" placeholder="Correo">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <select class="form-control" id="tipo-unidad">
+                            <option value="" disabled selected>Tipo de unidad</option>
+                            <option>Tractocamión</option>
+                            <option>Torton</option>
+                            <option>Camioneta</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <select class="form-control" id="modalidad">
+                            <option value="" disabled selected>Modalidad</option>
+                            <option>Full</option>
+                            <option>Sencillo</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <select class="form-control" id="tipo-mercancia">
+                            <option value="" disabled selected>Tipo Mercancía</option>
+                            <option>Carga General</option>
+                            <option>HazMat</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="embalaje" placeholder="Embalaje">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="dimensiones" placeholder="Dimensiones">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="piezas" placeholder="No. Piezas/Pallets">
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="peso" placeholder="Peso Neto Kg.">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="origen" placeholder="Origen">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="destino" placeholder="Destino">
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <textarea class="form-control" id="descripcion" rows="3" placeholder="Descripción de la mercancía"></textarea>
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <button id="quote_submit" class="btn ed_btn ed_orange pull-right">enviar</button>
+                    </div>
+
+					<p id="err"></p>
+				</div>
+
+				<div class="ed_contact_form" style="display: none;">
+					<!-- Grupo de campos de contacto -->
+					<div class="form-row">
+						<div class="form-group col-md-12">
+							<input type="text" class="form-control" id="empresa" placeholder="Empresa/Razón Social">
+						</div>
+					</div>
+				
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+						</div>
+						<div class="form-group col-md-6">
+							<input type="email" class="form-control" id="correo" placeholder="Correo">
+						</div>
+					</div>
+				
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+						</div>
+						<div class="form-group col-md-6">
+							<input type="text" class="form-control" id="embalaje" placeholder="Embalaje">
+						</div>
+					</div>
+				
+					<!-- Grupo de selectores -->
+					<div class="form-row">
+						<div class="form-group col-md-4">
+							<select class="form-control" id="tipo-unidad">
+								<option value="" disabled selected>Tipo de unidad</option>
+								<option>Tractocamión</option>
+								<option>Torton</option>
+								<option>Camioneta</option>
+							</select>
+						</div>
+						<div class="form-group col-md-4">
+							<select class="form-control" id="modalidad">
+								<option value="" disabled selected>Modalidad</option>
+								<option>Full</option>
+								<option>Sencillo</option>
+							</select>
+						</div>
+						<div class="form-group col-md-4">
+							<select class="form-control" id="tipo-mercancia">
+								<option value="" disabled selected>Tipo Mercancía</option>
+								<option>Carga General</option>
+								<option>HazMat</option>
+							</select>
+						</div>
+					</div>
+				
+					<!-- Grupo de dimensiones y piezas -->
+					<div class="form-row">
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" id="dimensiones" placeholder="Dimensiones">
+						</div>
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" id="piezas" placeholder="No. Piezas/Pallets">
+						</div>
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" id="peso" placeholder="Peso Neto Kg.">
+						</div>
+					</div>
+				
+					<!-- Grupo de origen y destino -->
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<input type="text" class="form-control" id="origen" placeholder="Origen">
+						</div>
+						<div class="form-group col-md-6">
+							<input type="text" class="form-control" id="destino" placeholder="Destino">
+						</div>
+					</div>
+				
+					<!-- Descripción de mercancía -->
+					<div class="form-group col-md-12">
+						<textarea class="form-control" id="descripcion" rows="3" placeholder="Descripción de la mercancía"></textarea>
+					</div>
+				
+					<!-- Botón de envío -->
+					<div class="form-group col-md-12">
+						<button id="quote_submit" class="btn ed_btn ed_orange pull-right">Enviar</button>
+					</div>
+				
+					<p id="err"></p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Form Cotización end -->
 <!--Newsletter Section six start-->
 <div class="ed_newsletter_section ed_toppadder90 ed_bottompadder90" style="display: none;">
 	<div class="container">

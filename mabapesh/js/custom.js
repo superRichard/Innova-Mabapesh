@@ -347,6 +347,80 @@
             }
         });
 		});
+
+	// Quote Form Submition
+		$("#quote_submit").on("click", function() {
+			var empresa = $("#empresa").val();
+			var nombre = $("#nombre").val();
+			var correo = $("#correo").val();
+			var telefono = $("#telefono").val();
+			var tipo_unidad = $("#tipo-unidad").val();
+			var modalidad = $("#modalidad").val();
+			var tipo_mercancia = $("#tipo-mercancia").val();
+			var embalaje = $("#embalaje").val();
+			var dimensiones = $("#dimensiones").val();
+			var piezas = $("#piezas").val();
+			var peso = $("#peso").val();
+			var origen = $("#origen").val();
+			var destino = $("#destino").val();
+			var descripcion = $("#descripcion").val();
+			$.ajax({
+				type: "POST",
+				url: "quotemail.php",
+				data: {
+					empresa: empresa,
+					nombre: nombre,
+					correo: correo,
+					telefono: telefono,
+					tipo_unidad: tipo_unidad,
+					modalidad: modalidad,
+					tipo_mercancia: tipo_mercancia,
+					embalaje: embalaje,
+					dimensiones: dimensiones,
+					piezas: piezas,
+					peso: peso,
+					origen: origen,
+					destino: destino,
+					descripcion: descripcion
+				},
+				success: function(n) {
+					var i = n.split("#");
+					if (i[0] == "1") {
+						$("#empresa").val("");
+						$("#nombre").val("");
+						$("#correo").val("");
+						$("#telefono").val("");
+						$("#tipo-unidad").val("");
+						$("#modalidad").val("");
+						$("#tipo-mercancia").val("");
+						$("#embalaje").val("");
+						$("#dimensiones").val("");
+						$("#piezas").val("");
+						$("#peso").val("");
+						$("#origen").val("");
+						$("#destino").val("");
+						$("#descripcion").val("");
+						$("#err").html(i[1]);
+					} else {
+						$("#empresa").val(empresa);
+						$("#nombre").val(nombre);
+						$("#correo").val(correo);
+						$("#telefono").val(telefono);
+						$("#tipo-unidad").val(tipo_unidad);
+						$("#modalidad").val(modalidad);
+						$("#tipo-mercancia").val(tipo_mercancia);
+						$("#embalaje").val(embalaje);
+						$("#dimensiones").val(dimensiones);
+						$("#piezas").val(piezas);
+						$("#peso").val(peso);
+						$("#origen").val(origen);
+						$("#destino").val(destino);
+						$("#descripcion").val(descripcion);
+						$("#err").html(i[1]);
+					}
+				}
+			});
+		});
 	
 	// SmoothScroll js
 		smoothScroll.init({
