@@ -188,24 +188,31 @@ Parther : contacto@innovaciontecnologica.online
 <!--Our expertise section one start -->
 <div class="ed_transprentbg ed_toppadder90 ed_bottompadder90">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-12">
-				<div class="ed_video_section_discription">
-					<h4>Acerca de Mabapesh</h4>
-					<p>La empresa Logística Mabapesh, S.A. de C.V. nació en el año 2017, teniendo como meta satisfacer la necesidad de servicio de transporte terrestre nacional, así también servicios logísticos, dejando un legado a las futuras generaciones.</p>
-					<!-- <span><a href="about.html" class="btn ed_btn ed_orange">Leer más</a></span> -->
+		<video id="introVideo" autoplay muted playsinline>
+			<source src="images/galeria/video10.mp4" type="video/mp4">
+			Tu navegador no soporta videos HTML5.
+		</video>
+		<div id="content" class="hidden-custom">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 center-content text-animated">
+					<div class="ed_video_section_discription">
+						<h4>Acerca de Mabapesh</h4>
+						<p>La empresa Logística Mabapesh, S.A. de C.V. nació en el año 2017, teniendo como meta satisfacer la necesidad de servicio de transporte terrestre nacional, así también servicios logísticos, dejando un legado a las futuras generaciones.</p>
+						<!-- <span><a href="about.html" class="btn ed_btn ed_orange">Leer más</a></span> -->
+					</div>
 				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12">
-				<div class="ed_video_section">
-					<div class="embed-responsive embed-responsive-16by9">
-						<div class="ed_video">
-							<img src="http://placehold.it/555X313" style="cursor:pointer"  alt="1" />
-							<div class="ed_img_overlay">
-								<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+				<div class="col-lg-6 col-md-6 col-sm-12 logo-centrado">
+					<img src="images/header/Logo.png" alt="Logo de la Empresa" class="logo-custom">
+					<!--div class="ed_video_section">
+						<div class="embed-responsive embed-responsive-16by9">
+							<div class="ed_video">
+								<img src="http://placehold.it/555X313" style="cursor:pointer"  alt="1" />
+								<div class="ed_img_overlay">
+									<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+								</div>
 							</div>
-						</div>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/_0782Za-DW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					</div>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/_0782Za-DW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					</div>
+					</div-->
 				</div>
 			</div>
 		</div>
@@ -587,6 +594,21 @@ Parther : contacto@innovaciontecnologica.online
 <script type="text/javascript" src="js/plugins/countto/jquery.countTo.js"></script>
 <script type="text/javascript" src="js/plugins/countto/jquery.appear.js"></script>
 <script type="text/javascript" src="js/custom.js"></script> 
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', () => {
+		const video = document.getElementById('introVideo');
+		const content = document.getElementById('content');
+
+		video.addEventListener('ended', () => {
+			video.classList.add('video-fade');
+			setTimeout(() => {
+				// Ocultar el video y mostrar el contenido
+				video.style.display = 'none';
+				content.classList.remove('hidden-custom');
+			}, 2000);
+		});
+	});
+</script>
 <!--main js file end-->
 </body>
 </html>
