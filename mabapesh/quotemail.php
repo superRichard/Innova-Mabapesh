@@ -1,5 +1,16 @@
 <?php
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require './phpmailer/Exception.php';
+require './phpmailer/PHPMailer.php';
+require './phpmailer/SMTP.php';
+
+$mail = new PHPMailer(true);
+
+error_reporting(0);
+
 function validarFormulario($datos) {
     foreach ($datos as $campo => $valor) {
         if (empty($valor)) {
@@ -24,8 +35,6 @@ $peso = $_POST['peso'];
 $origen = $_POST['origen'];
 $destino = $_POST['destino'];
 $descripcion = $_POST['descripcion'];
-
-$correoequipobamapesh = 'mgacarrera@gmail.com';
 
 $telefonoRegex = "/^[0-9]{10}$/";
 $numerosEnterosRegex = "/^[0-9]+$/";
@@ -77,17 +86,43 @@ if (validarFormulario($datosFormulario)) {
                     $message .= "<strong>Origen:</strong> " . $origen . "<br>";
                     $message .= "<strong>Destino:</strong> " . $destino . "<br>";
                     $message .= "<strong>Descripción:</strong> " . $descripcion . "<br><br>";
+                    $message .= "El mensaje ha sido enviado desde nuestro portal de internet https://Info@logisticamabapesh.com/";
 
                     // Configuración de los encabezados del correo
-                    $headers = "MIME-Version: 1.0" . "\r\n";
-                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                    $headers .= 'From: <support@transport.com>' . "\r\n";
+                    $headers = "From: $correo" . PHP_EOL;
+                    $headers .= "Reply-To: $correo" . PHP_EOL;
+                    $headers .= "MIME-Version: 1.0" . PHP_EOL;
+                    $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
+                    $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
-                    // Enviar el correo
-                    if (mail($correoequipobamapesh, 'Mensaje desde formulario de contacto', $message, $headers)) {
+                    // Envío de correo
+                    try {
+                        // Configuración del servidor de correo usando PHPMailer.
+                        $mail->SMTPDebug = 4;
+                        $mail->Debugoutput = 'html';
+                        $mail->isSMTP();
+                        $mail->Host       = '162.241.62.135';
+                        $mail->Username   = 'cotizacionesportal@logisticamabapesh.com';
+                        $mail->Password   = 'Cot@170821';
+                        $mail->Port       = 465;
+
+                        // Establecer los destinatarios del correo.
+                        $mail->setFrom('cotizacionesportal@logisticamabapesh.com', $nombre);
+                        $mail->addAddress('mgacarrera@gmail.com');
+                        $mail->addReplyTo($correo);
+
+                        // Configuración del contenido del correo.
+                        $mail->isHTML(true);
+                        $mail->Subject = 'Mensaje de logisticamabapesh.com enviado por: ' . $nombre . '.';
+                        $mail->Body    = $message;
+                        $mail->CharSet = 'UTF-8';
+
+                        $mail->send();
+
                         echo '1#<p style="color:green;">Correo enviado exitosamente. En breve nos ponemos en contacto.</p>';
-                    } else {
-                        echo '2#<p style="color:red;">Por favor intente nuevamente.</p>';
+
+                    } catch (Exception $exception) {
+                        echo '2#<p style="color:red;">Por favor intente nuevamente. ' . $exception . '</p>';
                     }
 
                 } else {
