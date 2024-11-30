@@ -364,6 +364,10 @@
 			var origen = $("#origen").val();
 			var destino = $("#destino").val();
 			var descripcion = $("#descripcion").val();
+
+			$("#loading").show();
+			$("#quote_submit").prop("disabled", true).text("Enviando...");
+
 			$.ajax({
 				type: "POST",
 				url: "quotemail.php",
@@ -418,6 +422,11 @@
 						$("#descripcion").val(descripcion);
 						$("#err").html(i[1]);
 					}
+				}, error: function() {
+					$("#err").html('<p style="color: red;">Error al enviar el formulario. Inténtalo de nuevo.</p>');
+				}, complete: function() {
+					$("#loading").hide();
+					$("#quote_submit").prop("disabled", false).text("Enviar");
 				}
 			});
 		});

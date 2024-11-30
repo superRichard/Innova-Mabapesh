@@ -7,8 +7,6 @@ require './phpmailer/Exception.php';
 require './phpmailer/PHPMailer.php';
 require './phpmailer/SMTP.php';
 
-$mail = new PHPMailer(true);
-
 error_reporting(0);
 
 function validarFormulario($datos) {
@@ -73,7 +71,7 @@ if (validarFormulario($datosFormulario)) {
 
                     // Construcción del mensaje con los datos capturados
                     $message = "Estimado equipo,<br><br>";
-                    $message .= "La empresa <strong>" . $empresa . "</strong> con contacto de <strong>" . $nombre . "</strong> ha enviado un formulario. A continuación, los detalles de la solicitud:<br><br>";
+                    $message .= "La empresa <strong>" . $empresa . "</strong> con contacto de <strong>" . $nombre . "</strong> ha solicitado una cotización. A continuación, los detalles de la solicitud:<br><br>";
                     $message .= "<strong>Correo:</strong> " . $correo . "<br>";
                     $message .= "<strong>Teléfono:</strong> " . $telefono . "<br>";
                     $message .= "<strong>Tipo de Unidad:</strong> " . $tipo_unidad . "<br>";
@@ -98,22 +96,28 @@ if (validarFormulario($datosFormulario)) {
                     // Envío de correo
                     try {
                         // Configuración del servidor de correo usando PHPMailer.
-                        $mail->SMTPDebug = 4;
+                        $mail = new PHPMailer(true);
+                        $mail->SMTPDebug = 0;
                         $mail->Debugoutput = 'html';
                         $mail->isSMTP();
-                        $mail->Host       = '162.241.62.135';
-                        $mail->Username   = 'cotizacionesportal@logisticamabapesh.com';
-                        $mail->Password   = 'Cot@170821';
+                        $mail->SMTPAuth   = true;
+                        $mail->Host       = 'mail.logisticamabapesh.com';
+                        $mail->Username   = 'notificaciones@logisticamabapesh.com';
+                        $mail->Password   = 'Not@170821';
+                        $mail->SMTPSecure = 'ssl';
                         $mail->Port       = 465;
 
                         // Establecer los destinatarios del correo.
-                        $mail->setFrom('cotizacionesportal@logisticamabapesh.com', $nombre);
-                        $mail->addAddress('mgacarrera@gmail.com');
+                        $mail->setFrom('notificaciones@logisticamabapesh.com', 'Notificaciones Mabapesh');
+                        $mail->addAddress('cotizacionesportal@logisticamabapesh.com');
+                        $mail->addBCC('notificaciones@logisticamabapesh.com');
+                        $mail->addBCC('mgacarrera@gmail.com');
+                        //$mail->addBCC('hsgc5701@gmail.com');
                         $mail->addReplyTo($correo);
 
                         // Configuración del contenido del correo.
                         $mail->isHTML(true);
-                        $mail->Subject = 'Mensaje de logisticamabapesh.com enviado por: ' . $nombre . '.';
+                        $mail->Subject = 'Cotización enviada por ' . $nombre . '.';
                         $mail->Body    = $message;
                         $mail->CharSet = 'UTF-8';
 
@@ -122,6 +126,7 @@ if (validarFormulario($datosFormulario)) {
                         echo '1#<p style="color:green;">Correo enviado exitosamente. En breve nos ponemos en contacto.</p>';
 
                     } catch (Exception $exception) {
+                        error_log('Error al enviar correo: ' . $mail->ErrorInfo);
                         echo '2#<p style="color:red;">Por favor intente nuevamente. ' . $exception . '</p>';
                     }
 
