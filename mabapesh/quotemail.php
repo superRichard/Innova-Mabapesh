@@ -102,15 +102,15 @@ if (validarFormulario($datosFormulario)) {
                         $mail->isSMTP();
                         $mail->SMTPAuth   = true;
                         $mail->Host       = 'mail.logisticamabapesh.com';
-                        $mail->Username   = 'notificaciones@logisticamabapesh.com';
-                        $mail->Password   = 'Not@170821';
+                        $mail->Username   = 'noreplay@logisticamabapesh.com';
+                        $mail->Password   = 'Nor@170821';
                         $mail->SMTPSecure = 'ssl';
                         $mail->Port       = 465;
 
                         // Establecer los destinatarios del correo.
-                        $mail->setFrom('notificaciones@logisticamabapesh.com', 'Notificaciones Mabapesh');
+                        $mail->setFrom('noreplay@logisticamabapesh.com', 'Notificaciones Mabapesh');
                         $mail->addAddress('cotizacionesportal@logisticamabapesh.com');
-                        $mail->addBCC('notificaciones@logisticamabapesh.com');
+                        $mail->addBCC('noreplay@logisticamabapesh.com');
                         $mail->addBCC('mgacarrera@gmail.com');
                         //$mail->addBCC('hsgc5701@gmail.com');
                         $mail->addReplyTo($correo);
