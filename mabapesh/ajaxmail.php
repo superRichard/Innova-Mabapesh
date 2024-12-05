@@ -16,7 +16,7 @@ if(trim($un)!="" && trim($msg)!="" && trim($su)!="" && trim($em)!="")
 {
 	if(filter_var($em, FILTER_VALIDATE_EMAIL))
 	{
-		$message="Estimado equipo Mabapesh<p>".$un."(".$em.") ha enviado un mensaje desde el formulario de contacto. "."</p><p>Asunto:".$su."<br>Mensaje : ".$msg."</p>";
+		$message="Estimado equipo Mabapesh<p>".$un." (".$em.") ha enviado un mensaje desde el formulario de contacto. "."</p><p><strong>Asunto:</strong> ".$su."<br><strong>Mensaje:</strong> ".$msg."</p>";
 		$headers = "MIME-Version: 1.0" . "\r\n";
 		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 		$headers .= 'From: <support@transport.com>' . "\r\n";

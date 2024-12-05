@@ -5892,7 +5892,23 @@ a.ed_getinvolved:hover i{
 	width: 100%;
 	padding-top: 75%;
 }
+.ed_item_img_custom:after{
+	all: unset;
+	content:"";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right: 50%;
+	border-radius:3px 3px 0px 0px;
+    background-color: rgb(255 255 255 / 50%) !important;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
 .ed_item_img_custom img {
+	all: unset;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -5905,6 +5921,23 @@ a.ed_getinvolved:hover i{
 	flex-direction: column;
 	justify-content: space-between;
 	height: 100%;
+	border-radius: 12px;
+}
+.ed_gallery_member_img_custom a:after{
+	all: unset;
+	content:"";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
+	border-radius:3px;
+    background-color: rgb(255 255 255 / 50%) !important;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 .min_height_description {
 	min-height: 226px;
@@ -5921,6 +5954,19 @@ a.ed_getinvolved:hover i{
 	background: rgb(255 255 255 / 50%);
     border-radius: 74px;
     margin: 42px auto;
+	box-shadow: 0px 10px 30px -15px #1c2130;
+	-webkit-box-shadow: 0px 10px 30px -15px #1c2130;
+}
+.blue_card {
+	background-color: #04528e;
+	border-radius: 74px;
+	padding: 32px;
+	box-shadow: 0px 10px 30px -15px #1c2130;
+	-webkit-box-shadow: 0px 10px 30px -15px #1c2130;
+
+	h3 {
+		color: white;
+	}
 }
 .ed_contact_form .form-control:hover {
     border-color: #005498;
@@ -6042,6 +6088,12 @@ a.ed_getinvolved:hover i{
 	margin-right: 8px;
 	display: inline-block;
 	vertical-align: middle;
+}
+#err {
+	font-size: 20px;
+}
+.video-mb {
+	margin-bottom: 26px;
 }
 @keyframes spin {
 	0% {
