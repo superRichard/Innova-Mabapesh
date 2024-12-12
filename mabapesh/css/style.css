@@ -5977,6 +5977,8 @@ a.ed_getinvolved:hover i{
 	float:left;
 	width:100%;
 	background-color:#04528e;
+	position: relative;
+	padding: 120px 0;
 
 	h3 {
 		color: white;
@@ -5987,6 +5989,16 @@ a.ed_getinvolved:hover i{
 		font-size: 22px;
 		text-align: center;
 	}
+}
+.ed_bluesection .svg-image {
+    position: absolute;
+    top: 42px;
+    left: 96px;
+    width: 234px;
+    height: auto;
+	opacity: 0.4;
+	transform: rotate(270deg);
+	transform-origin: center;
 }
 .ed_whiteheading_top {
 	text-align:center;
